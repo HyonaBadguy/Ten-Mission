@@ -32,10 +32,25 @@ To run the analysis notebook, you need Python and several libraries. It's recomm
 *   Python 3.8+
 *   Libraries:
     *   pandas
-    *   numpy
-    *   matplotlib
-    *   seaborn
+  
 
 You can install the required libraries using pip:
 ```bash
 pip install -r requirements.txt
+```
+
+## Project Structrure
+
+```bash
+├── presentation/
+│   ├── presentation.pptx          
+├── data/                 # Directory for input CSV files
+│   ├── Data dictionary.xlsx
+│   ├── Primary_Person.csv
+│   └── ... (other csv files)
+├── ten_mission.ipynb  
+├── README.md             
+└── requirements.txt      
+
+
+```
